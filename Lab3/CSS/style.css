@@ -140,6 +140,7 @@ a {
   grid-template-rows: 10vh 74vh 16vh;
   /* 3 rows with specified height */
   display: grid;
+  
 }
 
 .footer_left {
@@ -147,6 +148,8 @@ a {
   padding-left: 5vw;
   justify-content: left;
   display: grid;
+  padding-top: 2vh;
+  font-size: 2vmin;
 }
 
 .footer_right {
