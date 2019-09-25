@@ -18,6 +18,7 @@ for (var i = 0; i < numImages; i++) {
     //set image src property to image path, preloading image in the process
     imageArray[i] = new Image();
     imageArray[i].src = "Images/brightIdea" + (i + 1) + ".png";
+		console.log(imageArray[i].src.toString());
 }
 
 
@@ -33,7 +34,7 @@ function circleThru() {
     //  write images, from imageArray to HTML doc
 
     // call the setTimeout method on circleThru
-    setTimeout("circleThru()", 1000);
+    setTimeout("circleThru()", 700);
 
 }//end circleThru()
 

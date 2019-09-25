@@ -12,9 +12,9 @@ html {
 
 ::-webkit-scrollbar {
   width: 0px;
-  /* Remove scrollbar space */
+
   background: transparent;
-  /* Optional: just make scrollbar invisible */
+
 }
 
 .item {
@@ -140,7 +140,7 @@ a {
   grid-template-rows: 10vh 74vh 16vh;
   /* 3 rows with specified height */
   display: grid;
-  
+
 }
 
 .footer_left {
