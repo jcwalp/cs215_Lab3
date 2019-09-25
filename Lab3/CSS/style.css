@@ -12,7 +12,6 @@ html {
 
 ::-webkit-scrollbar {
   width: 0px;
-
   background: transparent;
 
 }
@@ -157,3 +156,5 @@ a {
   padding-right: 5vw;
   display: grid;
 }
+
+/* Signup Page Styling */
