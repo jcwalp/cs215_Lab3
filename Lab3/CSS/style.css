@@ -158,3 +158,20 @@ a {
 }
 
 /* Signup Page Styling */
+
+form {
+  background: #f9e933;
+  width: 65%;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.left {
+  padding-left: 10vw;
+  padding-top: 5vh;
+}
+
+.right {
+  padding-top: 2vh;
+  padding-right: 5vw;
+}
