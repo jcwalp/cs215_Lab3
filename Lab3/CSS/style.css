@@ -177,3 +177,14 @@ form {
   padding-top: 2vh;
   padding-right: 5vw;
 }
+
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+p.input-fields {
+  font-size: 2vh;
+}
