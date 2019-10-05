@@ -1,13 +1,16 @@
 body {
-  display: flex;
+  display: grid;
   justify-content: center;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
+  max-height: 100% !important;
+  overflow: auto !important;
 }
 
 html {
-  overflow: scroll;
+  overflow: auto;
   overflow-x: hidden;
+  max-height: 100% !important;
 }
 
 ::-webkit-scrollbar {
